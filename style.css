@@ -1,0 +1,135 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e23636;
+}
+
+.logo span {
+    color: #333;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 180px;
+}
+
+.characters {
+    display: flex; /* Changed to display cards horizontally */
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.character-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+#sp{
+    width: 400px;
+    margin-bottom: 30%;
+}
+#bw{
+    width: 200px;
+    margin-right: 40%;
+}
+#im{
+    width: 250px;
+    margin-top: 30%;
+    margin-right: 30%;
+}
+#ca{
+    width: 170px;
+    margin-top: 30%;
+    margin-right: 40%;
+}
+.character-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.character-card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 10px;          
+    right: 10px;
+}
+
+.character-card p {
+    font-size: 13px;
+    position: absolute;
+    top: 30px;          
+    right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
